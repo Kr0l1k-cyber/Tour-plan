@@ -349,6 +349,7 @@ template {
 body {
   color: #333333;
   font-family: 'Mulish', sans-serif;
+  background-color: #F5FAFE;
 }
 
 .container {
@@ -485,6 +486,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0;
+  padding: 18px 0;
 }
 
 @media (max-width: 1200px) {
