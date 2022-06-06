@@ -593,6 +593,16 @@ body {
   line-height: 18px;
 }
 
+.hotel-grid {
+  position: relative;
+  width: 728px;
+  height: 450px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 100%;
+  overflow: hidden;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
