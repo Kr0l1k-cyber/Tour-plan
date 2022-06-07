@@ -47,10 +47,28 @@
     font-weight: 700
     font-size: 14px
     line-height: 18px
-.hotel-grid
+// .hotel-grid
+
+.swiper-container
   position: relative
   width: 728px
   height: 450px
   box-sizing: border-box
-  max-width: 100%
   overflow: hidden
+.slider
+  &-button
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+    width: 30px
+    height: 30px
+    border: none
+    background-color: red
+    z-index: 10
+    cursor: pointer
+    padding: 0
+    margin: 0
+    &--next
+      right: 18px
+    &--prev
+      left: 18px
