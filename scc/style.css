@@ -678,7 +678,6 @@ body {
 }
 
 .booking__info {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -689,7 +688,6 @@ body {
 }
 
 .booking__price {
-  border: 1px solid green;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
