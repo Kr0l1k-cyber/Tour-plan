@@ -812,6 +812,7 @@ body {
   background-image: url(../image/newsletter-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .newsletter::before {
@@ -837,7 +838,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  border: 1px solid red;
   max-width: 731px;
   margin: auto;
 }
