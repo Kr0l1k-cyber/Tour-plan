@@ -118,30 +118,24 @@
       </div>
       <!-- /.hotel-info -->
       <div class="hotel-grid">
-        <div class="slider hotel__slider">
-          <div class="swiper-container">
+          <div class="swiper-container hotel-slider hotel__slider">
             <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
               <!-- Slides -->
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-slider__item">
                 <img class="swiper-slide__image" src="image/slide.jpg" alt="Фотография отелля">
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-slider__item">
                 <img class="swiper-slide__image" src="image/slide.jpg" alt="Фотография отелля">
               </div>
-              <div class="swiper-slide">
+              <div class="swiper-slide hotel-slider__item">
                 <img class="swiper-slide__image" src="image/slide.jpg" alt="Фотография отелля">
               </div>
             </div>
-            <!-- If we need pagination
-            <div class="swiper-pagination"></div> -->
-          
             <!-- If we need navigation buttons -->
-            <button class="slider-button slider-button--prev"></button>
-            <button class="slider-button slider-button--next"></button>
+            <button class="hotel-slider__button hotel-slider__button--prev"></button>
+            <button class="hotel-slider__button hotel-slider__button--next"></button>
           </div>
-          <!-- swiper-container -->
-        </div>
         <!-- /.slider -->
         <div class="hotel-right">
           <div class="booking">
@@ -201,6 +195,41 @@
     <!-- /.newsletter-wrapper -->
   </section>
   <!-- /.newsletter -->
+  <section class="reviews">
+    <div class="container">
+      <h2 class="section-title">What people think about us</h2>
+      <div class="swiper-container reviews-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="reviews-slider__item">
+              <div class="reviews-slider__profile">
+                <img src="image/reviews-avatar.jpg" alt="Photo: Megan Fox" class="reviews-slider__avatar">
+                <h3 class="reviews-slider__username">Megan Fox</h3>
+                <span class="reviews-slider__date">Stayed 18 Nov, 2019</span>
+                <div class="rating">
+                  <img src="image/Star.svg" alt="star">
+                  <img src="image/Star.svg" alt="star">
+                  <img src="image/Star.svg" alt="star">
+                  <img src="image/Star.svg" alt="star">
+                  <img src="image/Star.svg" alt="star">
+                </div>
+                <!-- /.rating -->
+              </div>
+              <!-- /.reviews-slider__profile -->
+            </div>
+            <!-- /.reviews-slider__item -->
+          </div>
+          <!-- /.swiper-slide -->
+        </div>
+        <!-- /.swiper-wrapper -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <!-- /.reviews-slider -->
+    </div>
+    <!-- /.container -->
+  </section>
+  <!-- /.reviews -->
   <script src="https://api-maps.yandex.ru/2.1/?apikey=95ebe414-254f-473d-9ce4-eb481ce5f452&lang=ru_RU">
   </script>
   <script src="js/swiper-bundle.min.js"></script>
