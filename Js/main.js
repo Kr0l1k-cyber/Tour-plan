@@ -1,4 +1,4 @@
-var swiper = new Swiper('.hotel-slider', {
+var hotelSlider = new Swiper('.hotel-slider', {
   // Optional parameters
   loop: true,
   // Navigation arrows
@@ -15,3 +15,13 @@ function init(){
   });
 };
 ymaps.ready(init);
+// Слайдер с отзывами
+var reviewsSlider = new Swiper('.reviews-slider', {
+  // Optional parameters
+  loop: true,
+  // Navigation arrows
+  navigation: {
+    nextEl: '.hotel-slider__button--next',
+    prevEl: '.hotel-slider__button--prev',
+  },
+});
