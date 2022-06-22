@@ -478,10 +478,6 @@ body {
   justify-content: space-between;
   padding-bottom: 20px;
 }
-.hotel-info__offer {
-  margin-left: 14px;
-  margin-top: 4px;
-}
 .hotel-info__name {
   margin-top: 4px;
   margin-bottom: 0;
@@ -780,7 +776,7 @@ body {
   background-color: #fff;
   border-radius: 8px;
   align-items: center;
-  width: 731px;
+  max-width: 731px;
   margin: 45px auto 0;
   padding: 0 62px 30px;
   position: relative;
@@ -875,8 +871,11 @@ body {
     max-width: 960px;
   }
 
-  .slider {
+  .hotel__slider {
     width: 590px;
+  }
+  .hotel-info__offer {
+    margin-left: 10px;
   }
 
   .swiper-slider__image {
@@ -919,6 +918,7 @@ body {
     flex-direction: column;
   }
   .hotel__slider {
+    width: 700px;
     margin-bottom: 30px;
   }
   .hotel-right {
@@ -936,17 +936,21 @@ body {
   .map {
     width: 340px;
   }
-}
-.newsletter {
-  padding: 98px 0 98px 0;
-}
-.newsletter-wrapper {
-  max-width: 700px;
-}
 
+  .newsletter {
+    padding: 98px 0 98px 0;
+  }
+  .newsletter-wrapper {
+    max-width: 700px;
+  }
+
+  .reviews-slider__item {
+    max-width: 579px;
+  }
+}
 @media (max-width: 768px) {
   .container {
-    max-width: 576px;
+    max-width: 700px;
     width: 92%;
   }
 
@@ -973,28 +977,19 @@ body {
   }
 
   .hotel-wrapper {
-    justify-content: space-between;
-  }
-  .hotel-name {
-    flex-basis: 100%;
-  }
-  .hotel-info__rating {
-    display: none;
-  }
-  .hotel-info__offer {
-    order: -1;
-    margin-left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
   .hotel-info__text {
     width: 100%;
   }
-  .hotel-info__name {
-    margin-top: 10px;
-    margin-bottom: 0;
+  .hotel-slider {
+    width: 100%;
   }
 
   .stars {
-    flex-basis: auto;
+    margin-bottom: 10px;
   }
 
   .slider {
@@ -1015,10 +1010,22 @@ body {
   }
 
   .newsletter-wrapper {
-    flex-direction: column;
-    max-width: 576px;
+    max-width: 700px;
     width: 92%;
-    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .reviews__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
+  }
+  .reviews-slider__item {
+    max-width: 579px;
+    padding: 0 60px 30px;
+  }
+  .reviews-slider__item::after, .reviews-slider__item::before {
+    display: none;
   }
 }
 @media (max-width: 576px) {

@@ -17,7 +17,9 @@ function init(){
 ymaps.ready(init);
 // Слайдер с отзывами
 var reviewsSlider = new Swiper('.reviews-slider', {
-  // Optional parameters
+  centeredSlides: true,
+  slidesPerView: 0.5,
+  // 2 пункта выше добавил что бы скрыть лишние слайды при адаптиве 768px
   loop: true,
   // Navigation arrows
   navigation: {
