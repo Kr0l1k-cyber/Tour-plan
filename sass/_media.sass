@@ -13,6 +13,11 @@
         width: 100%
         height: 100%
         object-fit: cover
+  .activites
+    max-width: 960px
+  .card
+    width: 230px
+    height: 230px
 @media ( max-width: 992px )
   .container
     max-width: 700px
@@ -57,7 +62,15 @@
       // overflow: hidden
       &__item
         max-width: 579px
-
+  .activites
+    max-width: 700px
+    &-wrapper
+      flex-wrap: wrap
+    &__card
+      margin-bottom: 20px
+  .card
+    width: 338px
+    height: 255px
 @media ( max-width: 768px )
   .container
     max-width: 700px
@@ -120,6 +133,12 @@
         padding: 0 60px 30px
         &::after, &::before
           display: none
+  .activites
+    max-width: 690px
+    width: 92%
+  .card
+    width: 49%
+    height: 255px
 @media ( max-width: 576px )
   .logo
     &__image
@@ -168,3 +187,8 @@
           right: 50%
           transform: translate(50%, 0)
           margin-right: -65px
+  .activites
+    max-width: 500px
+    padding: 0 10px 20px
+  .card
+    width: 100%
