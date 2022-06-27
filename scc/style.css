@@ -1096,4 +1096,26 @@ body {
     transform: translate(50%, 0);
     margin-right: -65px;
   }
+}
+.activites {
+  padding-top: 60px;
+  padding-bottom: 98px;
+  max-width: 1110px;
+  margin: auto;
+}
+.activites__title {
+  padding-bottom: 57px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.activites-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 255px;
+  height: 255px;
 }/*# sourceMappingURL=style.css.map */
