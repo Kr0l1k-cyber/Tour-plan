@@ -1001,6 +1001,9 @@ body {
 .footer__item--indent {
   margin-bottom: 20px;
 }
+.footer__item--privacy {
+  margin-right: 20px;
+}
 .footer__icon-wrapper {
   min-width: 40px;
 }
@@ -1044,6 +1047,7 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 75px;
 }
 .footer__message {
   background-color: #fff;
@@ -1072,6 +1076,15 @@ body {
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
+}
+.footer__privacy {
+  grid-column: 2/span 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer__pay {
+  justify-self: end;
 }
 
 @media (max-width: 1200px) {
@@ -1410,5 +1423,15 @@ body {
   .footer__title--inline {
     flex-basis: 100%;
     margin-bottom: 20px;
+  }
+  .footer__input {
+    flex-basis: 100%;
+  }
+  .footer__button {
+    order: 1;
+  }
+  .footer__info {
+    flex-basis: 100%;
+    margin-bottom: 15px;
   }
 }/*# sourceMappingURL=style.css.map */
