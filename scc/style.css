@@ -1234,6 +1234,13 @@ body {
   .footer__input {
     flex-basis: 48%;
   }
+  .footer__privacy {
+    grid-row: 5;
+    grid-column: span 4;
+  }
+  .footer__pay {
+    grid-row: 5;
+  }
 }
 @media (max-width: 768px) {
   .container {
@@ -1332,6 +1339,13 @@ body {
   .footer__contact-form {
     grid-column: span 6;
   }
+  .footer__privacy {
+    grid-column: span 5;
+    justify-self: start;
+  }
+  .footer__pay {
+    grid-column: -1;
+  }
 }
 @media (max-width: 576px) {
   .logo__image {
@@ -1411,6 +1425,7 @@ body {
   .footer-wrapper {
     display: flex;
     flex-direction: column;
+    grid-row-gap: 20px;
   }
   .footer__logo {
     order: -2;
