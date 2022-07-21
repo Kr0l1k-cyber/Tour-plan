@@ -185,7 +185,7 @@
         </div>
         <!-- /.hotel-right -->
       </div>
-      <!-- /.hotel-grid -->
+      <!-- /.hotel-grid --> 
     </div>
   </section>
   <!-- /.hotel -->
@@ -195,9 +195,9 @@
         subscribe to our
         <span class="newsletter-title__strong">Newsletter</span>
       </h2>
-      <form action="#" class="subscribe newsletter__subscribe">
-        <input type="text" class="subscribe__input" placeholder="Your email address">
-        <button class="subscribe__button">
+      <form action="send.php" method="post" class="subscribe newsletter__subscribe">
+        <input type="text" class="subscribe__input" placeholder="Your email address" name="emailaddress">
+        <button class="subscribe__button" type="submit">
           send
         </button>
       </form>
