@@ -6,10 +6,8 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 html {
-  line-height: 1.15;
-  /* 1 */
-  -webkit-text-size-adjust: 100%;
-  /* 2 */
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
 }
 
 /* Sections
@@ -44,12 +42,9 @@ h1 {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
 }
 
 /**
@@ -57,10 +52,8 @@ hr {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /* Text-level semantics
@@ -77,13 +70,10 @@ a {
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
 abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
-  /* 2 */
+          text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -101,10 +91,8 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
 }
 
 /**
@@ -154,14 +142,10 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: inherit;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
 }
 
 /**
@@ -169,8 +153,7 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 button,
-input {
-  /* 1 */
+input { /* 1 */
   overflow: visible;
 }
 
@@ -179,8 +162,7 @@ input {
  * 1. Remove the inheritance of text transform in Firefox.
  */
 button,
-select {
-  /* 1 */
+select { /* 1 */
   text-transform: none;
 }
 
@@ -229,18 +211,12 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
 }
 
 /**
@@ -263,10 +239,8 @@ textarea {
  */
 [type=checkbox],
 [type=radio] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
 }
 
 /**
@@ -282,10 +256,8 @@ textarea {
  * 2. Correct the outline style in Safari.
  */
 [type=search] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
 }
 
 /**
@@ -300,10 +272,8 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
 }
 
 /* Interactive
@@ -1094,30 +1064,25 @@ body {
   .container {
     max-width: 960px;
   }
-
   .hotel__slider {
     width: 590px;
   }
   .hotel-info__offer {
     margin-left: 10px;
   }
-
   .swiper-slider__image {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
   }
-
   .activites {
     max-width: 960px;
   }
-
   .card {
     width: 230px;
     height: 230px;
   }
-
   .footer__input {
     flex-basis: 100%;
   }
@@ -1126,11 +1091,9 @@ body {
   .container {
     max-width: 700px;
   }
-
   .logo__image {
     width: 132px;
   }
-
   .navbar-top {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -1146,11 +1109,9 @@ body {
     font-size: 12px;
     line-height: 15px;
   }
-
   .search__input {
     max-width: 340px;
   }
-
   .hotel-grid {
     flex-direction: column;
   }
@@ -1161,30 +1122,24 @@ body {
   .hotel-right {
     flex-direction: row;
   }
-
   .slider {
     width: 100%;
   }
-
   .booking {
     width: 340px;
   }
-
   .map {
     width: 340px;
   }
-
   .newsletter {
     padding: 98px 0 98px 0;
   }
   .newsletter-wrapper {
     max-width: 700px;
   }
-
   .reviews-slider__item {
     max-width: 579px;
   }
-
   .activites {
     max-width: 700px;
   }
@@ -1194,12 +1149,10 @@ body {
   .activites__card {
     margin-bottom: 20px;
   }
-
   .card {
     width: 338px;
     height: 255px;
   }
-
   .footer-wrapper {
     grid-template-columns: repeat(6, 1fr);
     grid-row-gap: 40px;
@@ -1249,12 +1202,10 @@ body {
   body {
     padding-top: 78px;
   }
-
   .container {
     max-width: 700px;
     width: 92%;
   }
-
   .navbar__mobile--fixed {
     position: fixed;
     top: 0;
@@ -1290,7 +1241,6 @@ body {
   .navbar-menu__item--mobile_visible {
     display: flex;
   }
-
   .menu-button {
     display: flex;
     width: 16px;
@@ -1312,13 +1262,11 @@ body {
     padding-top: 19px;
     padding-bottom: 19px;
   }
-
   .user__name--light {
     color: #fff;
     margin-left: 0;
     margin-top: 10px;
   }
-
   .hotel-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -1345,30 +1293,24 @@ body {
     flex-direction: column;
     min-height: 450px;
   }
-
   .stars {
     margin-bottom: 10px;
     flex-basis: auto;
   }
-
   .slider {
     height: 350px;
   }
-
   .booking {
     width: 100%;
   }
-
   .map {
     width: 100%;
   }
-
   .newsletter-wrapper {
     max-width: 700px;
     width: 92%;
     justify-content: space-between;
   }
-
   .reviews__title {
     font-size: 30px;
     line-height: 38px;
@@ -1381,17 +1323,14 @@ body {
   .reviews-slider__item::after, .reviews-slider__item::before {
     display: none;
   }
-
   .activites {
     max-width: 690px;
     width: 92%;
   }
-
   .card {
     width: 49%;
     height: 255px;
   }
-
   .footer {
     padding-top: 50px;
     padding-bottom: 23px;
@@ -1411,11 +1350,9 @@ body {
   .logo__image {
     width: 99px;
   }
-
   .slider {
     height: 250px;
   }
-
   .hotel-wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -1431,11 +1368,9 @@ body {
   .hotel__slider {
     margin-bottom: 20px;
   }
-
   .stars {
     flex-basis: 50%;
   }
-
   .newsletter {
     padding: 73px 0 83px 0;
   }
@@ -1447,11 +1382,9 @@ body {
     margin: 0;
     padding-bottom: 37px;
   }
-
   .subscribe {
     width: 100%;
   }
-
   .reviews-slider__item {
     max-width: 500px;
     padding: 0 40px 20px;
@@ -1472,16 +1405,13 @@ body {
     transform: translate(50%, 0);
     margin-right: -65px;
   }
-
   .activites {
     max-width: 500px;
     padding: 0 10px 20px;
   }
-
   .card {
     width: 100%;
   }
-
   .footer-wrapper {
     display: flex;
     flex-direction: column;
