@@ -72,8 +72,7 @@ a {
 abbr[title] {
   border-bottom: none; /* 1 */
   text-decoration: underline; /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted; /* 2 */
+  text-decoration: underline dotted; /* 2 */
 }
 
 /**
@@ -410,8 +409,7 @@ body {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 .user__name {
   margin-left: 18px;
@@ -787,8 +785,7 @@ body {
   width: 90px;
   height: 90px;
   border-radius: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   margin-bottom: 9px;
 }
 .reviews-slider__username {
@@ -891,8 +888,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   z-index: -2;
 }
 .card__title {
@@ -926,10 +922,8 @@ body {
 }
 .footer-wrapper {
   display: grid;
-  grid-template-columns: repeat(4, minmax(-webkit-min-content, 1fr));
   grid-template-columns: repeat(4, minmax(min-content, 1fr));
   gap: 20px;
-  grid-auto-rows: minmax(40px, -webkit-min-content);
   grid-auto-rows: minmax(40px, min-content);
   align-items: start;
 }
@@ -1060,6 +1054,16 @@ body {
   justify-self: end;
 }
 
+.modal__overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 143, 223, 0.39);
+  z-index: 100;
+}
+
 @media (max-width: 1200px) {
   .container {
     max-width: 960px;
@@ -1073,8 +1077,7 @@ body {
   .swiper-slider__image {
     width: 100%;
     height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    object-fit: cover;
   }
   .activites {
     max-width: 960px;

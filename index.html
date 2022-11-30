@@ -7,8 +7,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&family=Nunito:wght@400;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="scc/swiper-bundle.min.css">
-  <link rel="stylesheet" href="scc/style.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Tour plan - Hotel Booking</title>
 </head>
 <body>
@@ -404,6 +404,25 @@
     <!-- /.container -->
   </footer>  
   <!-- /.footer -->
+  <div class="modal">
+    <div class="modal__overlay"></div>
+    <!-- /.modal__overlay -->
+    <div class="modal__dialog">
+      <a href="#" class="modal__close">
+        <img src="image/close.svg" alt="icon: close">
+      </a>
+      <h3 class="footer__title  footer__title--mb3">Send us a message</h3>
+      <form action="send.php" method="POST" class="footer__form">
+        <input type="text" class="footer__input" placeholder="Your Full Name*" name="name">
+        <input type="text" class="footer__input" placeholder="Phone Number*" name="phone">
+        <textarea id="" cols="30" rows="10" class="footer__message" placeholder="Message" name="message"></textarea>
+        <button class="button footer__button">Send</button>
+        <span class="footer__info">* Required Fields</span>
+      </form>
+    </div>
+    <!-- /.modal__dialog -->
+  </div>
+  <!-- /.modal -->
   <script src="https://api-maps.yandex.ru/2.1/?apikey=95ebe414-254f-473d-9ce4-eb481ce5f452&lang=ru_RU">
   </script>
   <script src="js/swiper-bundle.min.js"></script>
