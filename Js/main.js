@@ -59,4 +59,19 @@ $(document).ready(function () {
     modalDialog.removeClass("modal__dialog--visible");
   }
   // удаляет класс закрывает модальное окно
+  // ------------------------------------------------------------------------------------------
+  $('.modal__form').validate({
+    messages: {
+      name: "Please specify your name",
+      email: {
+        required: "We need your email address to contact you",
+        email: "Your email address must be in the format of name@domain.com"
+      },
+      phone: {
+        required: "Телефон обязателен",
+      },
+    }
+  
+  });
+  // обработка формы
 });

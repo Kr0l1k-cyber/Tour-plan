@@ -1114,14 +1114,17 @@ input {
 }
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .modal__message {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
   min-height: 123px;
   padding-top: 18px;
   padding-left: 23px;
+}
+.modal__button {
+  margin-top: 15px;
 }
 .modal__info {
   color: #BDBDBD;
